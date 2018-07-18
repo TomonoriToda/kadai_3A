@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">TomoGamesApp</string>
+
+    <string name="title">コース料理予約システム</string>
+    <string name="tenpo_info">店舗情報</string>
+    <string name="jyusyo">住所</string>
+    <string name="tel">TEL</string>
+    <string name="customer_now">お客様は現在、</string>
+    <string name="now_yoyaku">を予約中です。</string>
+
+    <string name="nin">人数</string>
+    <string name="nin2">人</string>
+    <string name="start_time">開始時間</string>
+    <string name="time">開始</string>
+    <string name="drink">飲み放題</string>
+    <string name="tyumon">注文する</string>
+    <string name="back">戻る</string>
+    <string name="cansel">予約キャンセル</string>
+    <string name="yoyaku_kakutei">予約を確定する。</string>
+
 </resources>
