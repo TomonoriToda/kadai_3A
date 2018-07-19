@@ -11,36 +11,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
-        android:text="コース料理予約システム"
+        android:text="@string/title"
         android:textSize="45sp"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button_tenpoinfo"
+        android:layout_width="167dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="216dp"
+        android:text="@string/tenpo_info"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ListView
+        android:id="@+id/listview_ryouri"
         android:layout_width="450dp"
         android:layout_height="473dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginEnd="76dp"
         android:layout_marginTop="56dp"
+        android:entries="@array/ryouri_list"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/button_店舗情報"
-        android:layout_width="178dp"
-        android:layout_height="78dp"
-        android:layout_marginEnd="213dp"
-        android:layout_marginStart="210dp"
-        android:layout_marginTop="36dp"
-        android:text="店舗情報"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/_dynamic" />
 
 </android.support.constraint.ConstraintLayout>

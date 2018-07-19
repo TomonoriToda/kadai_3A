@@ -3,8 +3,11 @@
 
     <string name="title">コース料理予約システム</string>
     <string name="tenpo_info">店舗情報</string>
+    <string name="tenpo_name">居酒屋ジャバジャバ</string>
     <string name="jyusyo">住所</string>
+    <string name="jyusyo2">埼玉県熊谷市銀座777</string>
     <string name="tel">TEL</string>
+    <string name="tel2">048-1111-2222</string>
     <string name="customer_now">お客様は現在、</string>
     <string name="now_yoyaku">を予約中です。</string>
 
@@ -17,5 +20,22 @@
     <string name="back">戻る</string>
     <string name="cansel">予約キャンセル</string>
     <string name="yoyaku_kakutei">予約を確定する。</string>
+
+    <array name="ryouri_list">
+        <item name="1">豪華海の幸コース</item>
+        <item name="2">富士の山菜コース</item>
+        <item name="3">中華コース</item>
+        <item name="4">プレミアムコース</item>
+    </array>
+
+    <array name="pepole">
+     <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+    </array>
 
 </resources>
